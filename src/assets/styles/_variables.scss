@@ -10,3 +10,7 @@ $uoc-masterbrand: #73edff;
 $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 
 $mqMinWidth: 420px;
+
+$theme-colors: (
+ "primary": #79e911 // pon el código de color que prefieras
+);
