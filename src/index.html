@@ -5,16 +5,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>AC/BC</title>
   </head>
-  <header class="sticky-top">
-    <include src="./views/header.html"></include>
-  </header>
   <body>
-    
+    <include src="./views/header.html"></include>
+    <div class="contenedor">
+      <div class="titulo-container">
+        <h1 class="titulo">AC/BC</h1>
+      </div>
+      <div class="descripcion-container">
+        <p class="descripcion">Este verano iniciaremos los conciertos por toda España. Después de mucho tiempo sin poder hacer ningún tipo de evento ni festival vamos a volver con muchas fechas alrededor de todo el país para que todos podáis venir a vernos. Os esperemos a todos con muchas ganas! Las entradas solo se pondrán a la venta desde nuestra página.</p>
+      </div>
+      <div class="imagen-container">
+        <img src="../src/assets/images/concierto.png" alt="Concierto de rock" class="imagen">
+      </div>
+      <div class="compra-container">
+        <button class="compra btn btn-primary">COMPRA TUS ENTRADAS</button>
+      </div>
+    </div>
+    <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
-  <footer>
-    <include src="./views/footer.html"></include>
-  </footer>
 </html>

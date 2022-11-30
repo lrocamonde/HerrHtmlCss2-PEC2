@@ -1,20 +1,21 @@
 html {
     box-sizing: border-box;
-    width: 100vw;
-    height: 100vh;
-}
-    
-body, header, footer {
-    margin: 0 10px;
+    width: 100%;
+    height: 100%;
+    font-size: calc(10px + 0.8vw);
 }
 
 body {
     min-height: calc(100vh - 100px);
-    background-image: linear-gradient(110deg, #f1f1f1, #658ce0);
+    background-color: #658ce0;
 }
 
-@media (min-width: 992px) {
-    body, header, footer {
+footer, header {
+    height: 15vh;
+}
+
+@media (min-width: 883px) {
+    body, header, footer{
         margin: 0 50px;
     }
 }
