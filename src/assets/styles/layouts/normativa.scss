@@ -1,0 +1,87 @@
+.contenedorN {
+    margin: 0 10px;
+}
+
+.contenedorEncab {
+    text-align: center;
+    font-size: calc(10px + 0.8vw);
+    padding: 1vh;
+    margin-bottom: 2vh;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+}
+
+.iconoB{
+    font-size: calc(30px + 2vw);
+}
+
+.normasImg {
+    display: flex;
+    margin-bottom: 3vh;
+    align-items: center;
+}
+
+.textoA {
+    width: 60vw;
+}
+
+.contenedorImagen {
+    display: flex;
+    width: 40vw;
+    justify-content: flex-end;
+}
+
+.listaContenedor {
+    text-align: center;
+}         
+            
+.lista {
+    line-height: 2;
+    display: inline-block;
+    text-align: left;
+  }
+  
+             
+.lista li {
+list-style-type: none;
+counter-increment: item;
+}
+  
+.lista li:before {
+content: counter(item);
+margin-right: 5px;
+font-size: 80%;
+background-color: #f9dd94;
+color: #7eb4e2;
+font-weight: bold;
+padding: 3px 8px;
+border-radius: 3px;
+}
+      
+.textoC {
+    display: flex;
+    align-items: center;
+}
+ 
+.bq {
+    background: #7a96d3;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+.bq p{
+    max-width: 30vw;
+    font-size: calc(10px + 1.5vw);
+}
+
+.textoC p {
+    width: 70vw;
+}
+  
+.imagenFinal {
+    text-align: center;
+}      
+  
+      
+  
+
