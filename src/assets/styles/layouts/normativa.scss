@@ -42,24 +42,24 @@
     line-height: 2;
     display: inline-block;
     text-align: left;
+
+    .lista__elemento {
+        list-style-type: none;
+        counter-increment: item;
+        
+    }
+
+    .lista__elemento:before {
+        content: counter(item);
+        margin-right: 5px;
+        font-size: 80%;
+        background-color: #f9dd94;
+        color: #7eb4e2;
+        font-weight: bold;
+        padding: 3px 8px;
+        border-radius: 3px;
+    }
   }
-  
-             
-.lista li {
-list-style-type: none;
-counter-increment: item;
-}
-  
-.lista li:before {
-content: counter(item);
-margin-right: 5px;
-font-size: 80%;
-background-color: #f9dd94;
-color: #7eb4e2;
-font-weight: bold;
-padding: 3px 8px;
-border-radius: 3px;
-}
       
 .textoC {
     display: flex;
