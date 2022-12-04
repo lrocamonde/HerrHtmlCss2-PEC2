@@ -1,0 +1,26 @@
+.contenedorCarousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.imagenCarrousel {
+    height: 30vh;
+}
+
+.formulario, .info{
+    margin: 15px;
+}
+
+.formulario {
+    text-align: start;
+}
+
+.botonForm {
+    margin-bottom: 20px;
+}

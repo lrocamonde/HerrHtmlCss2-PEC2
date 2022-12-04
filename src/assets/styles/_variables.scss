@@ -12,5 +12,7 @@ $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 $mqMinWidth: 420px;
 
 $theme-colors: (
- "primary": rgb(242, 242, 242) // pon el código de color que prefieras
+ "primary": rgb(242, 242, 242), // pon el código de color que prefieras
+ "success": #198754,
+ "danger": red
 );
