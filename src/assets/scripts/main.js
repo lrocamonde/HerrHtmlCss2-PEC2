@@ -34,7 +34,7 @@ import * as bootstrap from 'bootstrap';
       if (!form.checkValidity()) {
         event.preventDefault()
         event.stopPropagation()
-        mensaje = 'Error en el mensaje'
+        mensaje = 'Error en el formulario'
         estilo = 'danger'
       } else{
         mensaje = 'Formulario correcto'
